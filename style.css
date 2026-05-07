@@ -1,10 +1,13 @@
 body{
     background:linear-gradient(to right,#cf9aff,#95c0ff);
+    display:flex;
+    flex-direction:column;
     font-family:Arial;
+    align-items:centre;
 }
 
 .note{
-    margin-left:50px;
+    margin-left:20px;
     margin-top:20px;
     text-size-adjust: calc();
 }
@@ -16,17 +19,22 @@ body{
     background-color:purple;
     color:white;
     cursor:pointer;
+    text-align:centre;
 }
 
 .notes-container{
     margin-top:20px;
+    display:flex;
+    align-items:centre;
+    flex-direction:column;
 }
 
 .note img{
     border-radius:20px;
 }
 .input-box{
-    width:500px;
+    min-width:500px;
+    width:90%
 
     min-height:120px;
 
